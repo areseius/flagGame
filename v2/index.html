@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="sec-main">
+        <article class="content">
+          <figure>
+            <img class="image" src="" />
+          </figure>
+          <div class="buttons">
+            <button onclick="audio2.play()" class="btn btnA">Option 1</button>
+            <button onclick="audio2.play()" class="btn btnB">Option 2</button>
+            <button onclick="audio2.play()" class="btn btnC">Option 3</button>
+            <button onclick="audio2.play()" class="btn btnD">Option 4</button>
+            <button onclick="audio.play()" class="btnNext" disabled>
+              Next
+            </button>
+          </div>
+
+          <div class="score-board">
+            <h1 class="true-answers">0</h1>
+            <h1 class="false-answers">0</h1>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
